@@ -1,0 +1,31 @@
+.content {
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  text-align: center;
+  height: 200px;
+}
+
+.content h2 {
+  font-size: 2rem;
+  color: blue;
+}
+
+.content h3 {
+  color: blue;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.content img{
+  height: 185px;
+  width: 185px;
+  float: left;
+}
+
+.content:hover,
+.content:active {
+  background-color: yellow;
+  border-color: yellow;
+}

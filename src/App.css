@@ -1,0 +1,38 @@
+section {
+  margin: 1rem auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.nav-bar{
+  text-align: left;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  background: blue;
+  border: 1px solid blue;
+  color: white;
+  padding: 0.75rem 2rem;
+  margin-left: 80%;
+}
+
+.content{
+  width: 85%;
+  margin: 1rem auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background-color: black;
+  border-color: black;
+}
